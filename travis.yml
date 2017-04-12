@@ -1,0 +1,6 @@
+language: csharp
+solution: src/dnsdynamic-client.sln
+script:
+  - xbuild src/dnsdynamic-client.sln /nologo /verbosity:normal /p:Configuration=Release
+mono:
+  - latest
